@@ -44,6 +44,6 @@
 
 | 仓库 | 说明 |
 |---|---|
-| [neurocast-server](https://github.com/neurocast-iot/neurocast-server) | 服务端源码 |
-| [neurocast-firmware](https://github.com/neurocast-iot/neurocast-firmware) | 设备端固件 |
-| [neurocast-platform](https://github.com/neurocast-iot/neurocast-platform) | Web 管理平台 |
+| [neurocast-iot/server](https://github.com/neurocast-iot/server) | 服务端源码 |
+| [neurocast-iot/firmware](https://github.com/neurocast-iot/firmware) | 设备端固件 |
+| [neurocast-iot/platform](https://github.com/neurocast-iot/platform) | Web 管理平台 |
