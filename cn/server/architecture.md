@@ -2,9 +2,9 @@
 
 ## 1. 系统概述
 
-NeuroCast 是一个 IoT 设备管理平台，提供设备管理、实时直播、录像回放、媒体文件管理等能力。设备通过 MQTT 接入 ThingsBoard IoT 平台，由规则引擎转发事件至 NeuroCast 服务端；SRS 作为流媒体服务器处理实时推流与回放。
+NeuroCast 是一个 IoT 设备管理平台，提供设备管理、实时直播、录像回放、媒体文件管理等能力。实时视频以 **WebRTC** 为核心，设备端通过 WebRTC P2P/SFU 推流，服务端通过 SRS 进行信令与转发，前端浏览器原生解码播放，实现全链路亚秒级低延迟。设备通过 MQTT 接入 ThingsBoard IoT 平台，由规则引擎转发事件至 NeuroCast 服务端。
 
-**技术栈**：Spring Boot 3.5.9 / Java 21 / PostgreSQL / Redis / ThingsBoard / SRS / MyBatis-Plus
+**技术栈**：Spring Boot 3.5.9 / Java 21 / PostgreSQL / Redis / ThingsBoard / SRS（WebRTC SFU） / MyBatis-Plus
 
 ---
 
