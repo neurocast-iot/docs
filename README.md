@@ -5,7 +5,7 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green.svg)](https://spring.io/projects/spring-boot)
 [![WebRTC](https://img.shields.io/badge/WebRTC-P2P%20%2B%20SFU-red.svg)](https://webrtc.org/)
 
-开源 IoT 设备管理平台，以 **WebRTC** 为核心实时视频方案，实现从设备端到浏览器的亚秒级低延迟直播。
+NeuroCast 是一套完整的音视频解决方案，涵盖设备端固件、云端服务、Web 管理平台，以 **WebRTC** 为核心实现从设备采集到浏览器播放的全链路亚秒级低延迟直播。
 
 ## 🖥️ 界面预览
 
@@ -44,7 +44,7 @@
 | NAT 穿透 | 基本没有 | **Full-ICE + STUN/TURN** |
 | 多人观看 | 需流媒体服务器转码 | **SFU 模式（WHIP/WHEP）原生支持** |
 
-NeuroCast 以 WebRTC 为核心，打通 **设备端推流 → 服务端信令转发 → 前端浏览器播放** 全链路，无需任何插件或转码服务，浏览器原生即可实现亚秒级实时观看。
+NeuroCast 以 WebRTC 为核心，提供从 **设备端采集编码 → 云端信令与转发 → 前端浏览器播放** 的完整音视频解决方案，无需任何插件或转码服务，浏览器原生即可实现亚秒级实时观看。
 
 ## 🏗️ 系统架构
 
