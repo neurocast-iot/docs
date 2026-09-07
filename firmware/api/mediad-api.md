@@ -40,20 +40,6 @@ mediad 内置完整的 WebRTC 实时视频能力，支持两种模式：
 - **P2P 直连** — 浏览器通过 MQTT 信令与设备建立 WebRTC 直连，Full-ICE 支持 NAT 穿透，延迟最低
 - **SFU 转发** — 设备通过 WHIP 推流到 SRS 服务器，观看端通过 WHEP 拉流，支持多人观看
 
-### 快速开始
-
-```bash
-# 查看当前推流状态
-mediactl status
-# 输出: {"live_mode":"idle","live_viewers":0,"live_manual_push":false}
-
-# 手动起 SFU 推流
-mediactl stream start <accessToken>
-
-# 停止推流
-mediactl stream stop <accessToken>
-```
-
 详细协议说明见 [WebRTC Streaming Guide](webrtc-streaming.md)。
 
 ## IPC 端点
@@ -61,7 +47,7 @@ mediactl stream stop <accessToken>
 | 端点 | 模式 | 用途 |
 |------|------|------|
 | `ipc:///tmp/iot_agent.ipc` | DEALER | 连接 iot_agent（接收命令、发送事件） |
-| `ipc:///tmp/nc_mediad_cmd.ipc` | REP | 调试命令通道（mediactl 直连） |
+| `ipc:///tmp/nc_mediad_cmd.ipc` | REP | 命令通道 |
 | `ipc:///tmp/nc_mediad_evt.ipc` | PUB | 事件广播通道 |
 
 ## 命令接口

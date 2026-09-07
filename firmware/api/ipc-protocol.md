@@ -239,14 +239,3 @@ mediactl/Cloud          mediad (CommandRouter)        SnapshotService
     │                           │──────────────────────────►│
     │                           │                           │
 ```
-
-## 调试
-
-使用 `mediactl listen` 命令可以实时查看所有媒体事件：
-
-```bash
-mediactl listen
-# 输出示例：
-# [event 12100] {"trigger_type":"timer","file_type":"image",...}
-# [event 12101] {"camera":"running","record_mode":"idle",...}
-```
