@@ -1,6 +1,12 @@
 # NeuroCast 中文文档
 
-NeuroCast 开源项目的官方中文文档。
+NeuroCast 是一个开源的 IoT 设备管理平台，涵盖云端服务、设备端固件、Web 管理平台三大部分，全部开源。
+
+| 模块 | 说明 | 仓库 |
+|------|------|------|
+| 云端服务 | Spring Boot 3 / Java 21 构建的 IoT 设备管理后端 | [neurocast-iot/server](https://github.com/neurocast-iot/server) |
+| 设备端固件 | 嵌入式 C++ 框架，支持 WebRTC 推流、媒体服务、云端对接 | [neurocast-iot/firmware](https://github.com/neurocast-iot/firmware) |
+| 项目文档 | 架构文档、API 参考、管理平台截图 | [neurocast-iot/docs](https://github.com/neurocast-iot/docs) |
 
 ## 服务端（Server）
 
