@@ -148,6 +148,10 @@ NeuroCast 以 WebRTC 为核心，打通 **设备端推流 → 服务端信令转
 | [neurocast-iot/platform](https://github.com/neurocast-iot/platform) | Web 管理平台（前端 / WebRTC 播放器） |
 | [neurocast-iot/docs](https://github.com/neurocast-iot/docs) | 项目文档（本仓库） |
 
-##  许可证
+## 💬 联系
+
+如有问题或合作意向，请发送邮件至 [hnngm163@gmail.com](mailto:hnngm163@gmail.com)。
+
+## 📄 许可证
 
 本项目采用 [Apache License 2.0](https://github.com/neurocast-iot/server/blob/main/LICENSE) 许可证。
