@@ -60,37 +60,70 @@ Web 管理平台的功能界面截图，展示各模块的操作界面。
 
 ### 设备管理
 
-| 功能 | 截图 |
-|------|------|
-| 设备列表 | ![设备列表](console/imgs/device_list.png) |
-| 设备配置 | ![设备配置](console/imgs/device_list_config.png) |
-| 设备操作 | ![设备操作](console/imgs/device_list_opt.png) |
-| OSD 水印配置 | ![OSD 配置](console/imgs/device_list_osd.png) |
-| 触发器配置 | ![触发器](console/imgs/device_list_plan.png) |
-| 产品管理 | ![产品管理](console/imgs/product.png) |
+**产品管理**
+
+![产品管理](console/imgs/product.png)
+
+**设备列表**
+
+![设备列表](console/imgs/device_list.png)
+
+**设备配置**
+
+![设备配置](console/imgs/device_list_config.png)
+
+**设备操作**
+
+![设备操作](console/imgs/device_list_opt.png)
+
+**OSD 水印配置**
+
+![OSD 配置](console/imgs/device_list_osd.png)
+
+**触发器配置**
+
+![触发器](console/imgs/device_list_plan.png)
 
 ### 实时直播与回放
 
-| 功能 | 截图 |
-|------|------|
-| 实时监控 | ![实时监控](console/imgs/realtime.png) |
-| 实时直播（续） | ![实时监控2](console/imgs/realtime2.png) |
-| 录像回放 | ![录像回放](console/imgs/playback.png) |
+**实时监控**
+
+![实时监控](console/imgs/realtime.png)
+
+![实时监控2](console/imgs/realtime2.png)
+
+**录像回放**
+
+![录像回放](console/imgs/playback.png)
 
 ### 媒体库
 
-| 功能 | 截图 |
-|------|------|
-| 图片列表 | ![图片列表](console/imgs/lib_image.png) |
-| 图片详情 | ![图片详情](console/imgs/lib_image2.png) |
-| 录像列表 | ![录像列表](console/imgs/lib_video.png) |
-| 录像详情 | ![录像详情](console/imgs/lib_video2.png) |
+**图片列表**
+
+![图片列表](console/imgs/lib_image.png)
+
+![图片详情](console/imgs/lib_image2.png)
+
+**录像列表**
+
+![录像列表](console/imgs/lib_video.png)
+
+![录像详情](console/imgs/lib_video2.png)
 
 ### 系统管理
 
-| 功能 | 截图 |
-|------|------|
-| 用户管理 | ![用户管理](console/imgs/sys_user.png) |
-| 角色管理 | ![角色管理](console/imgs/sys_role.png) |
-| API 客户端管理 | ![API 客户端](console/imgs/sys_api_client.png) |
-| 权限管理 | ![权限管理](console/imgs/sys_pem.png) |
+**用户管理**
+
+![用户管理](console/imgs/sys_user.png)
+
+**角色管理**
+
+![角色管理](console/imgs/sys_role.png)
+
+**API 客户端管理**
+
+![API 客户端](console/imgs/sys_api_client.png)
+
+**权限管理**
+
+![权限管理](console/imgs/sys_pem.png)
