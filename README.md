@@ -23,6 +23,15 @@ NeuroCast 是一套完整的音视频解决方案，涵盖设备端固件、云�
 
 > 更多界面截图见 [管理平台界面展示](#管理平台界面展示)
 
+## 📦 相关仓库
+
+| 仓库 | 说明 |
+|------|------|
+| [neurocast-iot/server](https://github.com/neurocast-iot/server) | 服务端源码（Java / Spring Boot） |
+| [neurocast-iot/firmware](https://github.com/neurocast-iot/firmware) | 设备端固件（C++ / WebRTC） |
+| [neurocast-iot/console](https://github.com/neurocast-iot/docs/tree/main/cn/console/imgs) | Web 管理平台（前端 / WebRTC 播放器） |
+| [neurocast-iot/docs](https://github.com/neurocast-iot/docs) | 项目文档（本仓库） |
+
 ## ✨ 核心特性
 
 - **设备管理**：设备 CRUD、批量创建、产品管理（设备类型）
@@ -138,15 +147,6 @@ NeuroCast 以 WebRTC 为核心，提供从 **设备端采集编码 → 云端信
 ![API 客户端管理](cn/console/imgs/sys_api_client.png)
 
 ![权限管理](cn/console/imgs/sys_pem.png)
-
-## 📦 相关仓库
-
-| 仓库 | 说明 |
-|------|------|
-| [neurocast-iot/server](https://github.com/neurocast-iot/server) | 服务端源码（Java / Spring Boot） |
-| [neurocast-iot/firmware](https://github.com/neurocast-iot/firmware) | 设备端固件（C++ / WebRTC） |
-| [neurocast-iot/platform](https://github.com/neurocast-iot/platform) | Web 管理平台（前端 / WebRTC 播放器） |
-| [neurocast-iot/docs](https://github.com/neurocast-iot/docs) | 项目文档（本仓库） |
 
 ## 💬 联系
 
